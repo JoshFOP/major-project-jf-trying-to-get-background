@@ -1,0 +1,82 @@
+section {
+  
+}
+
+body {
+  
+}
+
+ /* Todays Jobs Elements START */
+#TodayJobDiv {
+  padding-top: 10px;
+}
+
+.TodayJob {
+  background-color: white;
+  border-radius: 25px;
+}
+
+#TodayHeading {
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90px;
+  border-right-style: solid;
+  border-right-color: lightgrey;
+  border-right-width: 1px;
+
+}
+
+.TodayJobElement {
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 15px;
+}
+
+.TodayJobSpan {
+  display: inline-block;
+}
+
+/* Todays Jobs Elements END */
+
+
+/* Client Jobs Elements START */
+
+.ClientJobsDiv {
+  padding-bottom: 10px;
+}
+
+.ClientJobs {
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Client Jobs Elements END */
+
+.NewJobButton {
+  font-size: 25px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+
+.NewJobButton:active {
+  background-color: white;
+  
+}
+
+.NewJobButton:active:after {
+  background-color: white;
+  transition: 5.8s;
+}

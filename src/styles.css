@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+
+/*
+deeppurple-amber.css
+indigo-pink.css
+pink-bluegrey.css
+purple-green.css
+
+*/
+
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+body{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#headerTitle{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
